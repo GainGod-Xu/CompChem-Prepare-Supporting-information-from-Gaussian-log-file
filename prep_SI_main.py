@@ -134,8 +134,8 @@ def greadSI(filename):
        ofs.write('Imaginary Frequency: ' + str(freq) + ' cm^-1 ' + '\n')
        
     SCF=G_sum-G_corr
-    ofs.write('G_corr: '+ str(G_corr) + ' Hartree'+'\n')
     ofs.write('H_corr: '+ str(H_corr) + ' Hartree'+'\n')
+    ofs.write('G_corr: '+ str(G_corr) + ' Hartree'+'\n')
     ofs.write('SCF: '+ str(SCF) + ' Hartree'+'\n')
     ofs.write('S: '+ str(S_tot) + ' Cal/Mol-Kelvin'+'\n')
     ofs.write('H: '+ str(H_sum) + ' Hartree'+'\n')
